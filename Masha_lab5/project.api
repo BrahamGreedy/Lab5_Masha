@@ -1,0 +1,29 @@
+# controls.h task.h
+!controls.cpp controls.h graphics.h keys_n_colors.h #<#>
+!main.cpp cctype cerrno clocale controls.h cstdint cstdio cstdlib ctype.h cwchar cwctype errno.h exception graphics.h initializer_list ios iosfwd iostream istream keys_n_colors.h limits limits.h locale.h new ostream signal.h stddef.h stdexcept stdint.h stdio.h stdlib.h streambuf string string_view system_error task.h type_traits typeinfo wchar.h wctype.h #<#>
+!task.cpp controls.h graphics.h keys_n_colors.h string.h task.h #<#>
+ struct@CONTROL _type_ #<controls.h>
+ struct@point _type_ #<task.h>
+CONTROLS : enum #<controls.h>
+HEIGHT #<controls.h>
+WIDTH #<controls.h>
+bez() -> void #<task.h>
+chaikin() -> void #<task.h>
+controls : CONTROL[] #<controls.cpp>
+coordinats(int x, int y) -> void #<task.cpp>
+coordinats(int, int) -> void #<task.h>
+count_points : int #<task.cpp>
+create_back(const char* image_name) -> void #<controls.cpp>
+create_back(const char*) -> void #<controls.h>
+create_controls(int x0, int y0, int n) -> void #<controls.cpp>
+create_controls(int, int, int) -> void #<controls.h>
+createpoint(int x0, int y0) -> void #<task.cpp>
+createpoint(int, int) -> void #<task.h>
+main() -> int #<main.cpp>
+points : point[] #<task.cpp>
+save() -> void #<task.h>
+select_control() -> int #<controls.h>
+	CONTROL::x0 : int #<controls.h>
+	CONTROL::y0 : int #<controls.h>
+	point::x0 : int #<task.h>
+	point::y0 : int #<task.h>
